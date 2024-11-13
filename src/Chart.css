@@ -1,0 +1,27 @@
+/* src/Chart.css */
+
+/* Container for the Chart */
+.chart-container {
+    width: 100%;
+    max-width: 800px; /* Limit the maximum width */
+    margin: auto; /* Center the chart horizontally */
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for better visibility */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Title Style */
+.chart-title {
+    text-align: center; /* Center the title */
+    font-size: 24px; /* Bigger font size */
+    margin-bottom: 20px; /* Space below the title */
+    color: #333; /* Darker color for better contrast */
+}
+
+/* Style for the paragraph showing no products */
+.no-products {
+    text-align: center; /* Center text for no products message */
+    color: #666; /* A gray color to indicate that there are no products */
+    font-style: italic; /* Italic font for a subtle touch */
+}
